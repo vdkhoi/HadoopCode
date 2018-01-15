@@ -13,11 +13,17 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.regex.Pattern;
 
-import com.kohlschutter.boilerpipe.document.TextDocument;
-import com.kohlschutter.boilerpipe.extractors.ArticleExtractor;
-import com.kohlschutter.boilerpipe.sax.BoilerpipeSAXInput;
-import com.kohlschutter.boilerpipe.sax.HTMLDocument;
-import com.kohlschutter.boilerpipe.sax.HTMLFetcher;
+import de.l3s.boilerpipe.document.TextDocument;
+import de.l3s.boilerpipe.extractors.ArticleExtractor;
+import de.l3s.boilerpipe.sax.BoilerpipeSAXInput;
+import de.l3s.boilerpipe.sax.HTMLDocument;
+import de.l3s.boilerpipe.sax.HTMLFetcher;
+
+//import com.kohlschutter.boilerpipe.document.TextDocument;
+//import com.kohlschutter.boilerpipe.extractors.ArticleExtractor;
+//import com.kohlschutter.boilerpipe.sax.BoilerpipeSAXInput;
+//import com.kohlschutter.boilerpipe.sax.HTMLDocument;
+//import com.kohlschutter.boilerpipe.sax.HTMLFetcher;
 
 public class UploadBriefContent2DB {
 
